@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riview Card</title>
+
+    <script src="https://kit.fontawesome.com/b8bae2bd97.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+
+</head>
+<body class="bg-gray-200">
+    <main class="w-[80vw] m-auto max-w-2xl flex flex-col justify-center items-center min-h-screen">
+        <h1 class="font-medium text-lg tracking-wider">Our Reviews</h1>
+        <div class="bg-cyan-600 w-8 h-0.5"></div>
+        <section>
+            <article class="max-w-3xl flex flex-col justify-center items-center bg-white p-8 mt-4 shadow-lg shadow-gray-500">
+                <div class="w-40 h-40 img-container">
+                    <img id="user-image" class="w-full h-full rounded-full" src="" alt="">
+                </div>
+                <div class="work w-68">
+                    <h4 id="user-name" class="name text-center text-black text-2xl font-bold tracking-wider mt-2 "></h4>
+                    <p id="user-work" class="text-cyan-600 uppercase text-xs text-center"></p>
+                    <p id="user-description" class="work text-center mb-2 text-justify text-center text-[0.8rem] leading-4 mt-2 pl-2 pr-2">
+                    
+                    </p>
+                </div>
+
+                <div class="button-container flex gap-4 mt-2 text-sm text-cyan-400">
+                    <button id="btn-prev" <i class="fas fa-chevron-left"></i></button>
+                    <button id="btn-next" <i class="fas fa-chevron-right"></i></button>
+                </div>
+                <button id="btn-random" class="bg-cyan-600 border-2 border-cyan-600 uppercase rounded-md mt-4 px-0.5 py-0.5 text-xs hover:bg-white">surprise me</button>
+            </article>
+        </section>
+    </main>
+
+    <!-- Javascript -->
+    <script src="./script/script.js"></script>
+</body>
+</html>
